@@ -24,3 +24,16 @@ The admin interface provides:
 - Food listing
 - Search by food name
 - Ordering by newest records
+
+
+
+### FoodForm
+
+A Django ModelForm was created to allow users to submit food items.
+
+The form contains:
+
+- Food name
+- Calories
+
+The form is linked directly to the Food model.
