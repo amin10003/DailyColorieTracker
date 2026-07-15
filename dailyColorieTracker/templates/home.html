@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<h2>Food Items</h2>
+
+<p>Total Calories: {{ total_calories }}</p>
+
+{% if food_items %}
+
+<ul>
+
+    {% for food in food_items %}
+
+        <li>
+
+            {{ food.name }}
+            -
+            {{ food.calories }} Calories
+
+        </li>
+
+    {% endfor %}
+
+</ul>
+
+{% else %}
+
+<p>No food items found.</p>
+
+{% endif %}
+
+{% endblock %}

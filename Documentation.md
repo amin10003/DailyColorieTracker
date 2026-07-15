@@ -44,3 +44,15 @@ The form is linked directly to the Food model.
 The `home` view retrieves all food items ordered by creation date.
 
 It also calculates the total calories using Django's `aggregate()` function with `Sum`.
+
+
+## Templates
+
+The project uses Django's template inheritance.
+
+Templates created:
+
+- base.html
+- home.html
+
+The `home.html` template extends `base.html` and displays food items together with the total calorie count.

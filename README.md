@@ -11,3 +11,6 @@
 
 - Django Admin integration
 - Food management through the admin interface
+
+
+- Django Template Language (DTL)
