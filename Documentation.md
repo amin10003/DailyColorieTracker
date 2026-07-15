@@ -56,3 +56,14 @@ Templates created:
 - home.html
 
 The `home.html` template extends `base.html` and displays food items together with the total calorie count.
+
+
+## Food Creation
+
+The home view now supports creating new food items.
+
+When a valid form is submitted:
+
+1. The data is validated.
+2. A new Food object is saved.
+3. The user is redirected back to the home page.

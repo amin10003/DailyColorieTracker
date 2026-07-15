@@ -14,3 +14,8 @@
 
 
 - Django Template Language (DTL)
+
+
+- Add new food items
+- View all food items
+- Calculate total calories

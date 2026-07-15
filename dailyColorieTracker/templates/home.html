@@ -6,6 +6,20 @@ Home
 
 {% block content %}
 
+<h2>Add Food Item</h2>
+
+<form method="POST">
+
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit">
+        Add Food
+    </button>
+
+</form>
+
 <h2>Food Items</h2>
 
 <p>Total Calories: {{ total_calories }}</p>
