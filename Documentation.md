@@ -37,3 +37,10 @@ The form contains:
 - Calories
 
 The form is linked directly to the Food model.
+
+
+## Home View
+
+The `home` view retrieves all food items ordered by creation date.
+
+It also calculates the total calories using Django's `aggregate()` function with `Sum`.
